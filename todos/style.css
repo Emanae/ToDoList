@@ -1,0 +1,87 @@
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(241, 193, 137), rgb(251, 150, 251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+label{
+    font-size: 22px;
+    background: -webkit-linear-gradient(rgb(241, 193, 137), rgb(251, 150, 251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.otherButtons{
+    margin: 2px;
+    width: auto;
+    border: solid;
+    border-color: rgb(185, 185, 185);
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 18px;
+    background: -webkit-linear-gradient(rgb(241, 193, 137), rgb(251, 150, 251));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.addContainer{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.add {
+    text-decoration: none;
+    grid-column: 10;
+    border: solid;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.search{
+    text-decoration: none;
+    grid-column: 10;
+    border: solid;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.todoCard{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    border: solid;
+    border-radius: 10px;
+    margin: 4px;
+    border-color: rgb(185, 185, 185);
+}
+.doneCard{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    border: solid;
+    border-radius: 10px;
+    margin: 4px;
+    background-clip: text;
+    background: -webkit-linear-gradient(rgb(241, 193, 137), rgb(251, 150, 251));
+    border-color: rgb(185, 185, 185);
+
+} 
+.name{
+    grid-column-end: span 3;
+    margin: 5px;
+    padding-left: 4px;
+  }
+.content{
+    grid-column-end: span 5 ;
+    margin: 5px;
+}
+.buttons{
+    display: flex;
+    margin: 2px;
+    grid-column-end: span 2;
+}
+.button{
+    margin: 5px;
+}
